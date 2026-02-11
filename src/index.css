@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Playfair Display", serif;
+
+  /* Richer, darker forest greens from the reference image */
+  --color-forest-50: #f4f9f6;
+  --color-forest-100: #e3efe8;
+  --color-forest-200: #c5decb;
+  --color-forest-300: #9bc5aa;
+  --color-forest-400: #6ea583;
+  --color-forest-500: #4a8b65;
+  --color-forest-600: #366f4e;
+  --color-forest-700: #2d5a40; /* Primary Brand Green */
+  --color-forest-800: #254835;
+  --color-forest-900: #1e3d2f; /* Deep Background Green */
+  --color-forest-950: #10221a;
+
+  /* Nature Tones Palette */
+  --color-nature-cream: #f9fbf7;
+  --color-nature-mint: #ebf5ee;
+  --color-nature-green-dark: #1e4d2b;
+  --color-nature-green-deep: #0f291e;
+  --color-nature-text-dark: #333333;
+  --color-nature-text-light: #d1d1d1;
+  --color-nature-orange: #f07f22;
+  --color-nature-leaf: #4a7c59;
+
+  /* Warmer, organic beiges/creams */
+  --color-beige-50: #fdfbf7; /* Main Background */
+  --color-beige-100: #f7f4e9;
+  --color-beige-200: #efe9d3;
+  --color-beige-300: #e3d9b4;
+  --color-beige-400: #d4c38d;
+  --color-beige-500: #c4ab6e;
+
+  /* Custom branding colors mapped to palette */
+  --color-brand-dark: var(--color-forest-950);
+  --color-brand-light: var(--color-beige-50);
+  --color-brand-accent: var(--color-forest-700);
+  --color-brand-primary: var(--color-forest-700);
+  --color-brand-secondary: var(--color-beige-200);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 600; /* Playfair looks best with some weight */
+  letter-spacing: -0.02em;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-forest-700);
+  border-radius: 5px;
+  border: 2px solid var(--color-brand-light);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-forest-800);
+}
+
+/* Custom Utilities for "Eco Village" Theme */
+.text-balance {
+  text-wrap: balance;
+}
+
+.clip-wave-bottom {
+  clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+.clip-wave-top {
+  clip-path: ellipse(150% 100% at 50% 100%);
+}
