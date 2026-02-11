@@ -5,7 +5,8 @@ import plot from "../../../../public/plot.jpg.jpeg";
 import TWoBHK from "../../../../public/2bhk.jpg.jpeg";
 import ThreeBHK from "../../../../public/3bhk.jpg.jpeg";
 import FourBHK from "../../../../public/4bhk.jpg.jpeg";
-import Grand_Double_Storey_Bungalow from "../../../../public/Grand_Double_Storey_Bungalow_1920x1080.jpg.jpeg";
+import farmhouse from "../../../../public/farmhouse.png";
+
 
 function OurOffering() {
   return (
@@ -57,7 +58,7 @@ function OurOffering() {
         {/* Images Grid – 2 per row */}
       {/* Images Grid – 2 per row */}
 <div className="max-w-6xl mx-auto space-y-16 px-4">
-  {[plot,TWoBHK, ThreeBHK, FourBHK, Grand_Double_Storey_Bungalow].map(
+  {[plot,TWoBHK, ThreeBHK, FourBHK, farmhouse].map(
     (image, idx) => (
       <motion.div
         key={idx}
