@@ -98,7 +98,7 @@ const MasterPlan = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-white font-heading leading-tight">
             Master 
             <span className="text-[#EAB308] italic font-serif inline-block">
-              <GSAPTextReveal elementType="span"> Planned </GSAPTextReveal>
+              <GSAPTextReveal elementType="span"> Plan </GSAPTextReveal>
             </span>
           </h2>
 

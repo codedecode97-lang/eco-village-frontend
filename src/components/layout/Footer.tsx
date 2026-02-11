@@ -39,22 +39,23 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 relative z-10">
           
           {/* Brand */}
-          <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <img
-                src={logo}
-                alt="Eco Village"
-                className="w-12 h-12 object-contain rounded-full bg-white p-1"
-              />
-              <h2 className="text-2xl font-bold text-white font-heading">
-                Eco Urban
-              </h2>
-            </div>
-            <p className="text-white/70 text-sm leading-relaxed">
-              Building sustainable, vibrant communities in Bardhhaman and
-              beyond. Your dream home, our commitment to quality and trust.
-            </p>
-          </div>
+         {/* Brand */}
+<div className="space-y-6">
+  <div className="flex items-center gap-2">
+    <img
+      src={logo}
+      alt="Eco Village"
+      className="w-12 h-12 object-contain rounded-full bg-white p-1"
+    />
+    <h2 className="text-2xl font-bold text-white font-heading">
+      Eco Village
+    </h2>
+  </div>
+  <p className="text-white/70 text-sm leading-relaxed">
+    Eco Village, a Project by Eco Urban Developers.
+  </p>
+</div>
+
 
           {/* Useful Links */}
           <div className="lg:pl-8 lg:border-l lg:border-white/10">
