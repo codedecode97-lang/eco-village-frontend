@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import GSAPTextReveal from '../../../components/animations/GSAPTextReveal';
-
+import plot from "../../../../public/plot.jpg.jpeg";
 import TWoBHK from "../../../../public/2bhk.jpg.jpeg";
 import ThreeBHK from "../../../../public/3bhk.jpg.jpeg";
 import FourBHK from "../../../../public/4bhk.jpg.jpeg";
@@ -57,7 +57,7 @@ function OurOffering() {
         {/* Images Grid – 2 per row */}
       {/* Images Grid – 2 per row */}
 <div className="max-w-6xl mx-auto space-y-16 px-4">
-  {[TWoBHK, ThreeBHK, FourBHK, Grand_Double_Storey_Bungalow].map(
+  {[plot,TWoBHK, ThreeBHK, FourBHK, Grand_Double_Storey_Bungalow].map(
     (image, idx) => (
       <motion.div
         key={idx}

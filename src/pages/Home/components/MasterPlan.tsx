@@ -125,16 +125,6 @@ const MasterPlan = () => {
                 alt="Master Plan High Resolution"
                 className="w-full h-auto object-contain min-h-[400px] md:min-h-[600px] hover:scale-105 transition-transform duration-1000 ease-in-out cursor-zoom-in"
               />
-
-              {/* Badge */}
-              <div className="absolute top-6 right-6 px-4 py-2 bg-black/60 backdrop-blur border border-white/20 rounded-lg flex flex-col items-center">
-                <span className="text-[10px] text-white/50 uppercase tracking-widest font-bold">
-                  Total Area
-                </span>
-                <span className="text-lg font-bold text-[#EAB308]">
-                  12.5 Acres
-                </span>
-              </div>
             </div>
           </div>
         </motion.div>
