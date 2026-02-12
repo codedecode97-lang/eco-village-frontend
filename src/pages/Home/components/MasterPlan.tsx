@@ -134,7 +134,7 @@ const MasterPlan = () => {
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 w-full md:w-auto">
             {[
               { label: "Open Space", val: "45%" },
-              { label: "Internal Roads", val: "30-40 Ft" },
+              { label: "Internal Roads", val: "20-30 Ft Wide" },
               { label: "Plots", val: "Vastu Compliant" },
               { label: "Security", val: "24/7 Gated" },
             ].map((item, i) => (

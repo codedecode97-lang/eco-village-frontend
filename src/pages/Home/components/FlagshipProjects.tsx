@@ -11,13 +11,15 @@ import FreeholdOwnership from "../../../../public/FreeholdOwnership.jpeg";
 import GreenLandscapeZones from "../../../../public/GreenLandscapeZones.jpeg";
 import SmartFutureInvestment from "../../../../public/SmartFutureInvestment.jpeg";
 import SpaciousOpenAreas from "../../../../public/SpaciousOpenAreas.jpeg";
+import wideRoas from "../../../../public/wideinternalroads.jpeg";
+
 
 import Amenities from "./Amenities";
 
 
 const features = [
   { image: primeLocation },
-  { image: primeHighwayConnectiviry },
+  { image: wideRoas },
   { image: primeLfullyPlannedTownshipocation },
   { image: FreeholdOwnership },
   { image: smartSecruity },

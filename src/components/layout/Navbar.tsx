@@ -16,7 +16,6 @@ import { useLenis } from "../../context/LenisScrollContext";
 interface NavItem {
   label: string;
   path: string;
-  subtitle?: string;
 }
 
 const Navbar: React.FC = () => {
@@ -35,20 +34,18 @@ const Navbar: React.FC = () => {
   }, []);
 
   const navItems: NavItem[] = [
-    { label: "HOME", path: "#home", subtitle: "Welcome back" },
-    { label: "ABOUT US", path: "#about", subtitle: "Our Story" },
+    { label: "HOME", path: "#home" },
+    { label: "ABOUT US", path: "#about" },
     {
       label: "FLAGSHIP PROJECT",
       path: "#flagshipproject",
-      subtitle: "Anandam",
     },
-    { label: "OUR OFFERINGS", path: "#ourofferings", subtitle: "What we give" },
+    { label: "OUR OFFERINGS", path: "#ourofferings" },
     {
       label: "TESTIMONIALS",
       path: "#testimonials",
-      subtitle: "Community Love",
     },
-    { label: "CONTACT US", path: "#contact", subtitle: "Get in touch" },
+    { label: "CONTACT US", path: "#contact" },
   ];
 
   const handleScrollTo = (id: string, e: React.MouseEvent) => {
@@ -234,9 +231,6 @@ const Navbar: React.FC = () => {
                         onClick={(e) => handleScrollTo(item.path, e)}
                         className="group flex flex-col"
                       >
-                        <span className="text-xs text-[#EAB308] uppercase tracking-widest font-medium mb-1 opacity-100 transform translate-y-0 transition-all duration-300 block font-sans">
-                          {item.subtitle}
-                        </span>
                         <span className="text-4xl sm:text-5xl font-heading text-white font-normal tracking-wide transition-all duration-300 flex items-center gap-4 active:text-[#EAB308]">
                           {item.label}
                         </span>

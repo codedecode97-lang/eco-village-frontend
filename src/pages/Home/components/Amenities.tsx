@@ -22,6 +22,7 @@ import communityHall from "../../../../public/Amenity_ Community hall.jpg.jpeg";
 import kidsPlayArea from "../../../../public/Amenity_ Kids Play area.jpg.jpeg";
 import garden from "../../../../public/Amenity_ Vibrant garden.jpg.jpeg";
 import palyGround from "../../../../public/playground.png";
+import collage from "../../../../public/18.jpg.jpeg";
 
 const features = [
   {
@@ -177,6 +178,23 @@ const Amenities = () => (
             </div>
           </div>
         ))}
+
+        {/* Collage Image */}
+        <motion.div
+          initial={{ opacity: 0, y: 60, scale: 0.9 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: "-50px" }}
+          whileHover={{ y: -10, transition: { duration: 0.3 } }}
+          transition={{ duration: 0.5, delay: 0.9, ease: "easeOut" }}
+          className="group relative rounded-3xl overflow-hidden shadow-xl cursor-pointer  col-span-1 md:col-span-2 lg:col-span-3"
+        >
+          <img
+            src={collage}
+            alt="Collage"
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-95 transition duration-300" />
+        </motion.div>
       </GSAPStaggerWrapper>
     </div>
   </section>
