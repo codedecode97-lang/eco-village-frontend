@@ -113,7 +113,7 @@ const FlagshipProjects = () => (
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-4xl mx-auto"
         >
-          <div className="text-lg text-slate-600 leading-relaxed text-justify space-y-6 [&_strong]:text-green-600">
+ <div className="text-lg text-slate-600 leading-relaxed text-justify space-y-6 [&_strong]:text-green-600">
   <p>
     <strong>Eco Village</strong> is a landmark residential township
     redefining modern living in Bardhaman. Thoughtfully planned across{" "}
@@ -128,31 +128,29 @@ const FlagshipProjects = () => (
     <strong>10–15 minutes from the city center</strong>, Eco Village
     offers the rare privilege of peaceful green living without
     sacrificing urban convenience. With seamless{" "}
-    <strong>
-      highway connectivity via the Bardhaman–Katwa Highway
-    </strong>
-    , residents enjoy excellent access to schools, markets,
+    <strong>highway connectivity via the Bardhaman–Katwa Highway</strong>,
+    residents enjoy excellent access to schools, markets,
     healthcare, and transport hubs.
   </p>
 
   <p>
     Designed for{" "}
     <strong>end users, investors, and weekend home buyers</strong>,
-    Eco Village offers a diverse range of residential options
-    including{" "}
+    Eco Village offers a diverse range of residential options including{" "}
     <strong>
-      residential plots, 2BHK villas, 3BHK villas, 4BHK bungalows, and
-      farmhouses
+      residential plots, 2BHK Simplex House, 3BHK Duplex House,
+      4BHK Duplex Villa, and farmhouses
     </strong>
     —each crafted to provide comfort, privacy, and long-term value.
   </p>
 
   <p>
-    Eco Village is not just a residential project, it is a{" "}
+    Eco Village is not just a residential project; it is a{" "}
     <strong>self-sustained lifestyle ecosystem</strong>, built for
     today’s needs and tomorrow’s aspirations.
   </p>
 </div>
+
 
         </motion.div>
       </div>

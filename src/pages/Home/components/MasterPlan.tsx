@@ -1,5 +1,5 @@
 import React from "react";
-import sitePlan from "../../../assets/2.jpg";
+import sitePlan from "../../../assets/layout.jpg";
 import { FaDownload } from "react-icons/fa";
 import GSAPTextReveal from "../../../components/animations/GSAPTextReveal";
 import { motion } from "framer-motion";

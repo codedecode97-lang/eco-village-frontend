@@ -38,6 +38,7 @@ const features = [
     image: garden,
   },
   {
+    img_title: "12,500 sq.ft Kids Play Area",
     title: "Kids Play Area",
     icon: FaChild,
     desc: "Safe and joyful play zones designed for children’s development.",
@@ -50,26 +51,28 @@ const features = [
     image: openGym,
   },
   {
-    img_title: "42,000+ sq.ft. Club House",
+    img_title: "42,199 sq.ft. Club House",
     title: "Club House",
     icon: FaBuilding,
     desc: "A modern clubhouse for celebrations and indoor recreation.",
     image: clubHouse,
   },
   {
+    img_title: "44,563 sq.ft. Community Hall",
     title: "Community Hall",
     icon: FaBuilding,
     desc: "Spacious hall for events and cultural programs.",
     image: communityHall,
   },
   {
+    img_title: "44,500+ sq.ft. Temple",
     title: "Temple",
     icon: FaPray,
     desc: "A serene spiritual space for daily prayers.",
     image: amenityTemple,
   },
   {
-    img_title: "1.4 acres private pond with Chhath ghat",
+    img_title: "60,900+ sq.ft. Chhath Puja Ghats",
     title: "Chhath Puja Ghats",
     icon: FaPray,
     desc: "Dedicated ghats preserving traditions and values.",
