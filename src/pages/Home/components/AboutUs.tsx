@@ -6,7 +6,7 @@ import Hero from "../../../assets/aboutus.png";
 const AboutUs = () => (
   <section
     id="about"
-    className="relative py-24 md:py-32 bg-gradient-to-b from-forest-300 via-forest-200 to-forest-100 overflow-hidden"
+    className="relative py-12 md:py-12 bg-gradient-to-b from-forest-300 via-forest-200 to-forest-100 overflow-hidden"
   >
     <div className="max-w-7xl mx-auto px-6 lg:px-8">
       {/* Centered Label */}

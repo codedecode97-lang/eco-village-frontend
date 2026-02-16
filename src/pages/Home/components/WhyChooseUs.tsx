@@ -31,7 +31,7 @@ const whyChooseUs = [
 const WhyChooseUs = () => (
   <section
     // id="testimonials"
-    className="relative py-32 bg-[#d9eee2] overflow-hidden"
+    className="relative py-12 bg-[#d9eee2] overflow-hidden"
   >
     {/* Background Decor */}
     <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-forest-200 to-transparent opacity-50" />

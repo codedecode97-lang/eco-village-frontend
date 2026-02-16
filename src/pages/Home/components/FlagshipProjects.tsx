@@ -33,7 +33,7 @@ const FlagshipProjects = () => (
   <>
   <section
     id="flagshipproject"
-    className="relative z-10 py-32 bg-[#e3efe8] overflow-hidden"
+    className="relative z-10 py-12 bg-[#e3efe8] overflow-hidden"
   >
     {/* Subtle Gradient for Depth (No Patterns/Bubbles) */}
     <div className="absolute inset-0 bg-gradient-to-b from-white/40 to-stone-200/20 pointer-events-none" />
@@ -56,7 +56,7 @@ const FlagshipProjects = () => (
 
     <div className="relative max-w-7xl mx-auto px-6 lg:px-8 mt-4">
       {/* Centered Section Label */}
-      <div className="flex justify-center mb-16">
+      <div className="flex justify-center mb-4">
         <div className="inline-flex items-center gap-3 px-6 py-2 bg-white/30 backdrop-blur-lg rounded-full border border-white/50 shadow-lg shadow-black/5">
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-forest-400 opacity-75"></span>
@@ -68,7 +68,7 @@ const FlagshipProjects = () => (
         </div>
       </div>
 
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-10 md:gap-14 mt-0">
         {/* Heading Section */}
         <div className="text-center max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-forest-950 leading-tight font-heading">
@@ -156,7 +156,7 @@ const FlagshipProjects = () => (
       </div>
 
       {/* Modern Text Texture Transition - Full Width */}
-      <div className="mt-24 mb-24 border-y border-white/5 py-8 overflow-hidden w-screen max-w-[100vw] relative left-[50%] -translate-x-[50%] bg-[#1E3D2F]">
+      <div className="mt-12 mb-10 border-y border-white/5 py-8 overflow-hidden w-screen max-w-[100vw] relative left-[50%] -translate-x-[50%] bg-[#1E3D2F]">
         <TextMarquee
           text="SUSTAINABLE LIVING • MODERN ARCHITECTURE • GREEN SPACES • COMMUNITY FIRST • "
           className="text-6xl md:text-8xl font-heading font-bold text-white/5 tracking-tight uppercase"
@@ -171,7 +171,7 @@ const FlagshipProjects = () => (
   </section>
   <Amenities /> 
      {/* Key Highlights Section - Modern Premium Grid */}
-      <section className="mt-32 mb-5 relative px-4 w-full">
+      <section className="mt-12 mb-5 relative px-4 w-full">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

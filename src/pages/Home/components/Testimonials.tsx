@@ -226,7 +226,7 @@ const Testimonials = () => {
       id="testimonials"
     >
       {/* --- Header Content --- */}
-      <div className="container mx-auto px-6 mb-12 relative z-10 text-center">
+      <div className="container mx-auto px-6 mb-8 relative z-10 text-center">
         <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
           <span className="w-1.5 h-1.5 rounded-full bg-[#EAB308] animate-pulse"></span>
           <span className="text-xs uppercase tracking-[0.2em] text-white/80 font-medium">

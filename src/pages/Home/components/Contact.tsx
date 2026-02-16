@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative py-24 lg:py-32 bg-[#D9EEE2] overflow-hidden"
+      className="relative py-12 lg:py-16 bg-[#D9EEE2] overflow-hidden"
     >
       {/* Organic Background Blobs */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#d9eee2]/40 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none" />
@@ -15,7 +15,7 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16 space-y-6">
+        <div className="text-center mb-16 space-y-4">
           <div className="flex justify-center">
             <div className="inline-flex items-center gap-3 px-6 py-2 bg-white/60 backdrop-blur-lg rounded-full border border-white/50 shadow-sm">
               <span className="relative flex h-3 w-3">

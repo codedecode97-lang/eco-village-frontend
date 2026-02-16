@@ -41,7 +41,7 @@ const MasterPlan = () => {
 
   return (
     <motion.section
-      className="relative py-24 lg:py-32 bg-gradient-to-b from-[#051F14] to-[#02110b] overflow-hidden"
+      className="relative py-12 lg:py-16 bg-gradient-to-b from-[#051F14] to-[#02110b] overflow-hidden"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}

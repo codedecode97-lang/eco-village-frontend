@@ -90,7 +90,7 @@ const features = [
 const Amenities = () => (
   <section
     // id="ourofferings"
-    className="relative py-32 bg-forest-900 overflow-hidden"
+    className="relative py-12 bg-forest-900 overflow-hidden"
   >
     {/* Background Leaves */}
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -109,7 +109,7 @@ const Amenities = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="text-center mb-24"
+        className="text-center mb-8"
       >
         <h3 className="text-white text-4xl md:text-5xl font-bold mb-4">
           World-Class{" "}

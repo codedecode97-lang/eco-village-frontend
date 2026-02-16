@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import GSAPTextReveal from '../../../components/animations/GSAPTextReveal';
 import plot from "../../../../public/plot.jpg.jpeg";
 import TWoBHK from "../../../../public/2bhk.jpg.jpeg";
-import ThreeBHK from "../../../../public/3bhk.jpg.jpeg";
-import FourBHK from "../../../../public/4bhk.jpg.jpeg";
+import ThreeBHK from "../../../../public/threebhk.png";
+import FourBHK from "../../../../public/4bhkimage.png";
 import farmhouse from "../../../../public/farmhouse.png";
 
 
@@ -33,14 +33,15 @@ function OurOffering() {
           transition={{ duration: 0.7 }}
           className="text-center max-w-3xl mx-auto mb-16 px-4"
         >
-          <h3 className="text-forest-950 text-4xl md:text-5xl font-heading font-bold">
-            Residential{" "}
-            <span className="text-forest-600 italic inline-block">
-              <GSAPTextReveal elementType="span" delay={0.2}>
-                Options
-              </GSAPTextReveal>
-            </span>
-          </h3>
+     <h3 className="text-forest-950 text-4xl md:text-5xl font-heading font-bold">
+  Residential{" "}
+  <span className="text-forest-600 italic">
+    <GSAPTextReveal elementType="span" delay={0.2}>
+      Options
+    </GSAPTextReveal>
+  </span>
+</h3>
+
 
           <p className="text-slate-600 text-lg mt-4">
             Choose from our diverse range of premium residential configurations
