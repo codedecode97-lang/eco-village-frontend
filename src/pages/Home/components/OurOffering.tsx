@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import GSAPTextReveal from '../../../components/animations/GSAPTextReveal';
-import plot from "../../../../public/plot.jpg.jpeg";
+import plot from "../../../../public/plots.png";
 import TWoBHK from "../../../../public/2bhk.jpg.jpeg";
 import ThreeBHK from "../../../../public/threebhk.png";
 import FourBHK from "../../../../public/4bhkimage.png";
